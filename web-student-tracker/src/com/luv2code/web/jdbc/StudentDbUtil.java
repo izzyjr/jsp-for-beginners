@@ -16,7 +16,7 @@ public class StudentDbUtil {
 		dataSource = theDataSource;
 	}
 	
-	public List<Student> getStudent() throws Exception {
+	public List<Student> getStudents() throws Exception {
 		
 		List<Student> students = new ArrayList<>();
 		
