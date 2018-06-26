@@ -43,7 +43,7 @@
 					<!-- set up a link for each student -->
 					<c:url var="tempLink" value="StudentControllerServlet">
 						<c:param name="command" value="LOAD" />
-						<c:param name="studentID" value="${tempStudent.id}" />
+						<c:param name="studentId" value="${tempStudent.id}" />
 					</c:url>
 					
 					<tr>
